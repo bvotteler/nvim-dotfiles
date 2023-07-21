@@ -48,4 +48,8 @@ return require('packer').startup(function(use)
 	  }
   }
 
+  -- cutom wiki path and mode needs to be set before this,
+  -- done that in lua/brendon/vimwiki.lua
+  use 'vimwiki/vimwiki'
+
 end)
